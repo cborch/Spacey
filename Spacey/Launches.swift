@@ -9,8 +9,8 @@ import Foundation
 import Alamofire
 import SwiftyJSON
 
-var testCache = NSCache<NSString, Launches>()
-let jsonCacheKey = "key"
+//var testCache = NSCache<NSString, Launches>()
+//let jsonCacheKey = "key"
 
 class Launches {
     var apiURL = "https://ll.thespacedevs.com/2.0.0/launch/?format=json"
